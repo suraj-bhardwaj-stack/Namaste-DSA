@@ -19,10 +19,3 @@ function sum(a , b){
 }
 sum(7 , 13)
 
-// Return value 
-function findSquare(num){
-    return num * num
-}
-
-let collectSquareValue = findSquare(4)
-console.log("Square Value: " + collectSquareValue)
