@@ -31,3 +31,10 @@ for(i=0; i< 5; i++){
 // again increment the value 4 => 4 + 1
 // check the condition , now condition is false
 // so code exicution end
+
+// Revers Loop
+
+for(i = 10; i>0; i--){
+    console.log(" Revwers i " + i);
+    
+}
