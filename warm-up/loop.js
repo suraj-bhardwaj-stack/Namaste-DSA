@@ -38,3 +38,22 @@ for(i = 10; i>0; i--){
     console.log(" Revwers i " + i);
     
 }
+
+// write a function that search an element in
+// array and return the index , if the element is not present 
+// return -1
+
+const arr = [2, 4, 5, 8, 9, 56, 90, 87, 34, 9]
+
+function findIndex(index){
+    for(i = 0; i < arr.length; i++){
+        if(index == arr[i]){
+            return i
+        }
+    }
+    return -1
+}
+
+const collectIndex = findIndex(87)
+
+console.log(collectIndex)
