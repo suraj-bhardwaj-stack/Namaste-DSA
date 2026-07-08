@@ -112,3 +112,52 @@ for(let i=0; i<n; i++){
     }
     console.log(row);
 }
+
+//pattern 7
+/*
+|
+| O
+| O |
+| O | O
+| O | O | O
+*/
+
+for(let i=0; i<n; i++){
+    let row = " ";
+    let swith = 1;
+    for(let j = 0; j<=i; j++){
+        row = row +  " " + swith ;
+        if(swith == 1){
+            swith = 0;
+        }else{
+            swith = 1;
+        }
+    }
+    console.log(row);
+}
+
+console.log("pattern 8");
+
+// pattern 8
+/*
+1 
+0 1
+0 1 0
+1 0 1 0
+1 0 1 0 1
+*/
+ let toggle = 1;
+for(let i =0; i<n; i++){
+    let row = " ";
+    for(let j=0; j<i;j++){
+        
+        row = row + toggle;
+        if(toggle == 1){
+            toggle = 0;
+        }else{
+            toggle = 1;
+    }
+   
+}
+ console.log(row);
+}
